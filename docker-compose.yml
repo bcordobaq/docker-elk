@@ -65,7 +65,7 @@ services:
       - elasticsearch
 
   grafana:
-    image: grafana/grafana
+    image: grafana/grafana:$GRAFANA_VERSION
     volumes: 
       - type: volume
         source: grafana
